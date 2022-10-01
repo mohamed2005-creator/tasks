@@ -1,0 +1,25 @@
+body {
+  background-color: rgb(0, 204, 255);
+}
+
+#root {
+  padding: 10vw;
+}
+
+#note-editor {
+  margin-bottom: 5vh;
+}
+
+h1.main-headline {
+  color: RED;
+}
+
+.note-content {
+  cursor: pointer;
+  padding: 5px;
+}
+.note-content:hover {
+  color: RED;
+  background-color: LIGHTYELLOW;
+  border-radius: 15px;
+}
